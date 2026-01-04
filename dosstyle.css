@@ -10,6 +10,28 @@ body {
 	
 }
 
+a:link {
+	color:#5555FF;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#FF55FF;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#000000;
+	text-decoration:none;
+	background-color:#AAAAAA;
+}
+
+a:active{
+	color:#0000AA;
+	text-decoration:none;
+	background-color:#AAAAAA;
+}
+
 /*
 DOS COLOR HEX CODE REFERENCE:
 	DARK COLORS:
