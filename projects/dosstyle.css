@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color:#000000;
+	background-color:#0000AA;
 	color:#AAAAAA;
 	font-family:dos
 	
@@ -16,15 +16,15 @@ a:link, a:visited {
 }
 
 a:hover{
-	color:#000000;
-	text-decoration:none;
-	background-color:#AAAAAA;
+	color:#000000 !important;
+	text-decoration:none !important;
+	background-color:#AAAAAA !important;
 }
 
 a:active{
-	color:#0000AA;
-	text-decoration:none;
-	background-color:#AAAAAA;
+	color:#0000AA !important;
+	text-decoration:none !important;
+	background-color:#AAAAAA !important;
 }
 
 /*
