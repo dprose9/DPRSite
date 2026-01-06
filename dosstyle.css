@@ -10,26 +10,21 @@ body {
 	
 }
 
-a:link {
+a:link, a:visited {
 	color:#5555FF;
 	text-decoration:none;
 }
 
-a:visited{
-	color:#FF55FF;
-	text-decoration:none;
-}
-
 a:hover{
-	color:#000000;
-	text-decoration:none;
-	background-color:#AAAAAA;
+	color:#000000 !important;
+	text-decoration:none !important;
+	background-color:#AAAAAA !important;
 }
 
 a:active{
-	color:#0000AA;
-	text-decoration:none;
-	background-color:#AAAAAA;
+	color:#0000AA !important;
+	text-decoration:none !important;
+	background-color:#AAAAAA !important;
 }
 
 /*
