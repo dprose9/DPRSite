@@ -1,8 +1,0 @@
-@font-face {
-	font-family: 'dos';
-	src: url('/format/DOS.ttf') format('truetype');	
-}
-
-body {
-	font-family:dos;
-}
