@@ -6,7 +6,8 @@
 body {
 	background-color:#000000;
 	color:#AAAAAA;
-	font-family:'CodePage437', monospace;
+	text-decoration:none;
+	font-family:'CodePage437';
 	
 }
 
