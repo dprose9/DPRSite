@@ -1,3 +1,1 @@
-function urmomfun() {
-	document.getElementById("urmomid").innerHTML = 'Urmom'
-}
+document.getElementById("urmomid").src = "lol.htm";

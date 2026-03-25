@@ -11,6 +11,12 @@ body {
 	
 }
 
+iframe {
+	border:0;
+	outline:none;
+	height:30px;
+}
+
 a:link, a:visited {
 	color:#5555FF;
 	text-decoration:none;
