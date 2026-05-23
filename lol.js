@@ -1,1 +1,1 @@
-document.getElementById("urmomid").innerHTML = "<h1>Urmom Test</h1>";
+document.getElementById("urmomid").innerHTML = "lol.htm";
