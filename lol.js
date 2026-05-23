@@ -6,5 +6,10 @@ function sizeiframe() {
 	frme.style.width = doc.body.scrollWidth +"px";
 }
 
-
-document.getElementById("urmomid").onload = sizeiframe;
+window.addEventListener("load", () => {
+	const frme = document.getElementById("urmomid");
+	frme.onload = () => {
+		sizeiframe();
+		console.log("urmom menu loaded");
+	};
+});
