@@ -1,7 +1,5 @@
-const menuhtm = 'LOLOLOL'
+import { readFileSync } from "fs";
+
+const menuhtm = readFileSync("lol.htm", "utf8");
 
 document.getElementById("urmomid").innerHTML = menuhtm;
-
-document.getElementById("urmomid1").innerHTML = "<h>";
-document.getElementById("urmomid2").innerHTML = "LOLOLOLO";
-document.getElementById("urmomid3").innerHTML = "</h>";
