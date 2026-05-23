@@ -1,5 +1,4 @@
-import { readFileSync } from "fs";
 
-const menuhtm = readFileSync("lol.htm", "utf8");
+const menuhtm = await fetch("lol.htm").then(r => r.text());
 console.log(menuhtm);
 document.getElementById("urmomid").innerHTML = menuhtm;
