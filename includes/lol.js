@@ -1,4 +1,3 @@
+const menuhtm = await fetch("/includes/menu.htm").then(r => r.text());
 
-const menuhtm = await fetch("/includes/head.htm").then(r => r.text());
-console.log(menuhtm);
-document.getElementById("headid").innerHTML = menuhtm;
+document.getElementById("menuid").innerHTML = menuhtm;
