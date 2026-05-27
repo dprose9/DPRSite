@@ -17,8 +17,13 @@ iframe {
 	height:30px;
 }
 
-a:link, a:visited {
+a:link {
 	color:#5555FF;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#FF55FF;
 	text-decoration:none;
 }
 
