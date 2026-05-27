@@ -3,9 +3,17 @@
 	src: url('/format/cp437ex.ttf') format('truetype');	
 }
 
-body {
+body.main {
 	background-color:#000000;
 	color:#AAAAAA;
+	text-decoration:none;
+	font-family:'CodePage437';
+	
+}
+
+body.proj {
+	background-color:#000000;
+	color:#5555FF;
 	text-decoration:none;
 	font-family:'CodePage437';
 	
@@ -18,12 +26,12 @@ iframe {
 }
 
 a:link {
-	color:#5555FF;
+	color:#0000AA;
 	text-decoration:none;
 }
 
 a:visited {
-	color:#FF55FF;
+	color:#AA00AA;
 	text-decoration:none;
 }
 
